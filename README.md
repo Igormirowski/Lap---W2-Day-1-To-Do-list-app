@@ -64,3 +64,5 @@ db = SQLAlchemy(app) # Initialize database
 - pipenv freeze > requirements.txt 
 - heroku create <name>
 - git remote -v 
+- git push heroku 
+
