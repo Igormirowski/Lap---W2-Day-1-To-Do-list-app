@@ -8,4 +8,21 @@
 # Install:
 - `pipenv install flask `
 - `pipenv install flask flask-sqlalchemy`
-- create app.py 
+- create app.py :
+```
+from distutils.log import debug
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Hello Igor"
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+```
+- python app.py (see page)
+- create static , templates(index.html) folders
+- import render_template
