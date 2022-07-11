@@ -54,3 +54,13 @@ db = SQLAlchemy(app) # Initialize database
 - modify app route adding if else statement
 - import request
 - add redirect and new_task
+
+
+## HEROKU 
+- heroklu cli - donwloan 
+- heroku login 
+- git init 
+- python install gunicorn
+- pipenv freeze > requirements.txt 
+- heroku create <name>
+- git remote -v 
