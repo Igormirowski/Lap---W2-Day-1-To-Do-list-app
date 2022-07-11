@@ -66,3 +66,6 @@ db = SQLAlchemy(app) # Initialize database
 - git remote -v 
 - git push heroku 
 
+Delopyed 
+
+`https://flaskapppracticeigorm.herokuapp.com/`
