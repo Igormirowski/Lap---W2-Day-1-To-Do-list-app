@@ -60,7 +60,7 @@ db = SQLAlchemy(app) # Initialize database
 - heroklu cli - donwloan 
 - heroku login 
 - git init 
-- python install gunicorn
+- pipenv install gunicorn
 - pipenv freeze > requirements.txt 
 - heroku create <name>
 - git remote -v 
